@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h2>Responsive Image Gallery</h2>
+    
+    <div class="gallery">
+        <img src="one.webp" alt="Image 1" loading="lazy">
+        <img src="three.jpeg" alt="Image 2" loading="lazy">
+        <img src="two.jpeg" alt="Image 3" loading="lazy">
+        <img src="four.webp" alt="Image 4" loading="lazy">
+        <img src="five.webp" alt="Image 5" loading="lazy">
+        <img src="six.jpeg" alt="Image 6" loading="lazy">
+        <img src="one.webp" alt="Image 7" loading="lazy">
+        <img src="two.jpeg" alt="Image 8" loading="lazy">
+        <img src="three.jpeg" alt="Image 9" loading="lazy">
+        <img src="four.webp" alt="Image 10" loading="lazy">
+        <img src="five.webp" alt="Image 11" loading="lazy">
+        <img src="six.jpeg" alt="Image 12" loading="lazy">
+        <img src="one.webp" alt="Image 1" loading="lazy">
+        <img src="three.jpeg" alt="Image 2" loading="lazy">
+        <img src="two.jpeg" alt="Image 3" loading="lazy">
+        <img src="four.webp" alt="Image 4" loading="lazy">
+        <img src="five.webp" alt="Image 5" loading="lazy">
+        <img src="six.jpeg" alt="Image 6" loading="lazy">
+        <img src="one.webp" alt="Image 7" loading="lazy">
+        <img src="two.jpeg" alt="Image 8" loading="lazy">
+        <img src="three.jpeg" alt="Image 9" loading="lazy">
+        <img src="four.webp" alt="Image 10" loading="lazy">
+        <img src="five.webp" alt="Image 11" loading="lazy">
+        <img src="six.jpeg" alt="Image 12" loading="lazy">
+    </div>
+</body>
+</html>
